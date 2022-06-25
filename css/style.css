@@ -1,0 +1,162 @@
+/* Header */
+.header {
+  background-color: #121d33;
+  padding: 2.4rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  stroke: white;
+  fill: white;
+}
+
+nav {
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  padding: 0.4rem;
+  font-size: 1.6rem;
+
+  color: #ccd2de;
+  text-decoration: none;
+  transition: all 0.3s;
+  display: inline-block;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.more-opt {
+  font-size: 3.2rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.search-btn {
+  display: inline-block;
+  background-color: #2a3448;
+  padding: 0.6rem;
+  color: white;
+  height: 3.2rem;
+  width: 3.2rem;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.search-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/*********************/
+/* HERO SECTION */
+/*********************/
+.section-hero {
+  background-color: rgb(20, 70, 153);
+  background-image: url("../images/home-hero-gradient.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: rgb(255, 255, 255);
+}
+
+.hero-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.hero-text-box {
+  padding: 15% 0;
+  margin-right: 30%;
+}
+
+/*********************/
+/* Wallet SECTION */
+/*********************/
+.section-wallet {
+  border-radius: 11px;
+  background-color: #f7f5fe;
+  margin: 3.2rem;
+  color: #7349f2;
+}
+
+.tag {
+  margin-top: 2.4rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.8rem;
+  background-color: #efecfe;
+  border-radius: 11px;
+}
+
+.image-box {
+  position: relative;
+}
+
+.container-img {
+  position: relative;
+  width: 100%;
+}
+
+.features {
+  display: flex;
+  gap: 1.6rem;
+  flex-direction: column;
+}
+
+.feature {
+  border-radius: 8px;
+  border: 2px solid #ded8fd;
+  line-height: 1.6;
+  font-size: 1.6rem;
+  padding: 1.2rem;
+  padding-right: 30%;
+  font-weight: 500;
+}
+
+.feature-active {
+  background-color: #efecfe;
+}
+
+.image-phone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*********************/
+/* Exchange SECTION */
+/*********************/
+.section-exchange {
+  border-radius: 11px;
+  background-color: #f5fafe;
+  margin: 3.2rem;
+  color: #0c6cf2;
+}
+
+/* Foooter */
+
+.section-footer {
+  padding: 8rem;
+}
+
+.grid--footer {
+  grid-template-columns: 40% 60%;
+}
